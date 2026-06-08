@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first Project</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/until.css">
     <link rel="stylesheet" href="/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-
-    <nav>
+    <!-- navbar Section -----------Start----------- -->
+    <nav class="blue darken-3">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="">Home</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="sass.html">Sass</a></li>
@@ -26,11 +27,25 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/background.jpg.webp" class="w-full">
+                </div>
+                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                <a href="#name"><span class="white-text name">Amirali Foroghi</span></a>
+                <a href="#email"><span class="white-text email">amir.art.2024@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Home</a></li>
+        <li><a class="waves-effect" href="#!">User</a></li>
     </ul>
+    <!-- navbar Section -----------End----------- -->
 
 
     <script src="/materialize/js/materialize.min.js"></script>
